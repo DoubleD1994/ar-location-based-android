@@ -34,8 +34,11 @@ public class AROverlayView extends View {
 
         //Demo points
         arPoints = new ArrayList<ARPoint>() {{
-            add(new ARPoint("Sun Wheel", 16.0404856, 108.2262447, 0));
-            add(new ARPoint("Linh Ung Pagoda", 16.1072989, 108.2343984, 0));
+            add(new ARPoint("Edinburgh Castle", 55.9485977, -3.2021022, 0));
+            add(new ARPoint("Liam's House", 55.928297, -3.4940951, 0));
+            add(new ARPoint("Edinburgh Napier University Merchiston Campus", 55.9331244, -3.2154474, 0));
+            add(new ARPoint("Edinburgh Napier University Craiglockhart Campus", 55.9179379, -3.241869, 0));
+            add(new ARPoint("Edinburgh Napier University Sighthill Campus", 55.924595, -3.2909403, 0));
         }};
     }
 
